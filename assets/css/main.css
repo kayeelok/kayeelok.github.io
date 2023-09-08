@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+.box-shadow-bottom {
+	box-shadow: 5px -9px 17px #444;
+}
+.bg-white {
+	background: #fff;
+}
 .dancing {
 	font-family: 'Dancing Script', cursive;
+}
+.lucky {
+	font-family: 'Luckiest Guy', cursive;
 }
