@@ -66,15 +66,15 @@
  
         </ul>
         <div class="uk-navbar-item uk-visible@m">
-           <a class="uk-icon-button uk-margin-right-small" href="https://www.facebook.com/kayee.lok444">
+           <a class="uk-icon-button" href="https://www.facebook.com/kayee.lok444">
     <span uk-icon="facebook" width="20" height="20"></span>
 </a>
-<a class="uk-icon-button uk-margin-right-small" href="https://www.amazon.com/s?k=ka+yee+lok&i=digital-text">
+<a class="uk-icon-button" href="https://www.amazon.com/s?k=ka+yee+lok&i=digital-text">
     <span uk-icon="bag" width="20" height="20"></span>
 </a>
-<a class="uk-icon-button" href="https://www.barnesandnoble.com/s/ka%20yee%20lok">
+<!-- <a class="uk-icon-button" href="https://www.barnesandnoble.com/s/ka%20yee%20lok">
     <span uk-icon="more" width="20" height="20"></span>
-</a>
+</a> -->
  
         </div>
         <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon=""
@@ -86,36 +86,66 @@
         <div class="uk-section uk-section-xsmall"
     uk-height-viewport="offset-top: true; offset-bottom: true">
 
-        <div class="uk-container">
-            <h1>Contact me</h1>
-            <p>
-                <span uk-icon="icon: facebook"></span>&nbsp;
-                <a href="https://www.facebook.com/kayee.lok444">https://www.facebook.com/kayee.lok444</a>
-            </p>
-            <p>
-                <span uk-icon="icon: mail"></span>&nbsp;
-                <span>info@kayeelok.com</span>
+        <div class="bcard uk-container">
+            <h1 class="uk-text-center">Contact me</h1>
+            <div class="uk-flex uk-flex-center uk-flex-column">
+                <div class="uk-text-center uk-padding-small">
+    <div><img class="uk-border-circle" src="assets/img/profile.jpg" width="128" height="128" alt="Border circle"></div>
+    <h4 class="lucky uk-margin-remove-bottom uk-margin-small-top">Ka Yee Lok</h4>
+    <div class="courgette uk-text-small">W<span class="uk-text-lowercase">riter&nbsp;/&nbsp;Poetess</span></div>
+</div>
+<ul class="uk-nav uk-nav-default tm-nav uk-padding-small uk-padding-remove-top">
+    <li>
+        <span uk-icon="icon: location"></span>&nbsp;
+        <span>Brossard, QC, Canada</span>
+    </li>
+    <li>
+        <span uk-icon="icon: mail"></span>&nbsp;
+        <span>info@kayeelok.com</span>
+    </li>
+    <li>
+        <span uk-icon="icon: world"></span>&nbsp;
+        <span>https://www.kayeelok.com</span>
+    </li>
+    <li>
+        <span uk-icon="icon: facebook"></span>&nbsp;
+        <span>kayee.lok444</span>
+    </li>
+</ul>
+            </div>
+            <p class="uk-text-center">
+                <img width="200" alt="QR Code" src="/assets/img/qrcode.png" />
             </p>
         </div>
         </div>
 
         <div class="uk-section-xsmall">
     <div class="uk-container uk-container-expand uk-text-center uk-position-relative">
+        <div class="uk-flex uk-flex-center">
+            <ul class="uk-text-small uk-navbar-nav">
+               <li><a href="/"><span uk-icon="icon: home"></span>&nbsp;Home</a></li>
+<li><a href="/about"><span uk-icon="icon: happy"></span>&nbsp;About</a></li>
+<li><a href="/works"><span uk-icon="icon: pencil"></span>&nbsp;Works</a></li>
+<li><a href="/contact"><span uk-icon="icon: mail"></span>&nbsp;Contact</a></li>
+<li><a href="/support"><span uk-icon="icon: heart"></span>&nbsp;Support</a></li>
+ 
+            </ul>
+        </div>
         <div>
-            <a class="uk-icon-button uk-margin-right-small" href="https://www.facebook.com/kayee.lok444">
+            <a class="uk-icon-button" href="https://www.facebook.com/kayee.lok444">
     <span uk-icon="facebook" width="20" height="20"></span>
 </a>
-<a class="uk-icon-button uk-margin-right-small" href="https://www.amazon.com/s?k=ka+yee+lok&i=digital-text">
+<a class="uk-icon-button" href="https://www.amazon.com/s?k=ka+yee+lok&i=digital-text">
     <span uk-icon="bag" width="20" height="20"></span>
 </a>
-<a class="uk-icon-button" href="https://www.barnesandnoble.com/s/ka%20yee%20lok">
+<!-- <a class="uk-icon-button" href="https://www.barnesandnoble.com/s/ka%20yee%20lok">
     <span uk-icon="more" width="20" height="20"></span>
-</a>
+</a> -->
 
         </div>
         <ul class="uk-subnav tm-subnav uk-flex-inline uk-flex-center uk-margin-remove-bottom"
             uk-margin="">
-            <li><span>&copy; 2023 kayeelok.com</span></li>
+            <li><span>&copy;&nbsp;2023&nbsp;KaYeeLok.com</span></li>
         </ul>
     </div>
 </div>
@@ -123,14 +153,33 @@
     <a class="uk-icon-button" href="#" uk-totop uk-scroll></a>
 </div>
         <div id="offcanvas" uk-offcanvas="mode: push; overlay: true">
-    <div class="uk-offcanvas-bar">
+    <div class="uk-offcanvas-bar uk-padding-remove">
         <div class="uk-panel">
-            <ul class="uk-nav uk-nav-default tm-nav">
-                <li class="uk-text-center"><img class="uk-border-circle" src="assets/img/profile.jpg" width="128" height="128" alt="Border circle"></li>
-                <li class="uk-text-center uk-nav-header" data-svelte-h="svelte-51ym2f">
-                    <h4 class="lucky uk-margin-remove-bottom">Ka Yee Lok</h4>
-                    <div class="courgette uk-text-small">W<span class="uk-text-lowercase">riter&nbsp;/&nbsp;Poetess</span></div>
-                </li>
+            <div class="uk-text-center uk-padding-small">
+    <div><img class="uk-border-circle" src="assets/img/profile.jpg" width="128" height="128" alt="Border circle"></div>
+    <h4 class="lucky uk-margin-remove-bottom uk-margin-small-top">Ka Yee Lok</h4>
+    <div class="courgette uk-text-small">W<span class="uk-text-lowercase">riter&nbsp;/&nbsp;Poetess</span></div>
+</div>
+<ul class="uk-nav uk-nav-default tm-nav uk-padding-small uk-padding-remove-top">
+    <li>
+        <span uk-icon="icon: location"></span>&nbsp;
+        <span>Brossard, QC, Canada</span>
+    </li>
+    <li>
+        <span uk-icon="icon: mail"></span>&nbsp;
+        <span>info@kayeelok.com</span>
+    </li>
+    <li>
+        <span uk-icon="icon: world"></span>&nbsp;
+        <span>https://www.kayeelok.com</span>
+    </li>
+    <li>
+        <span uk-icon="icon: facebook"></span>&nbsp;
+        <span>kayee.lok444</span>
+    </li>
+</ul>
+            <hr class="uk-margin-remove" />
+            <ul class="uk-nav uk-nav-default tm-nav uk-padding-small">
                 <li><a href="/"><span uk-icon="icon: home"></span>&nbsp;Home</a></li>
 <li><a href="/about"><span uk-icon="icon: happy"></span>&nbsp;About</a></li>
 <li><a href="/works"><span uk-icon="icon: pencil"></span>&nbsp;Works</a></li>
@@ -138,17 +187,19 @@
 <li><a href="/support"><span uk-icon="icon: heart"></span>&nbsp;Support</a></li>
 
             </ul>
-            <hr />
-            <a class="uk-icon-button uk-margin-right-small" href="https://www.facebook.com/kayee.lok444">
+            <hr class="uk-margin-remove" />
+            <div class="uk-padding-small">
+                <a class="uk-icon-button" href="https://www.facebook.com/kayee.lok444">
     <span uk-icon="facebook" width="20" height="20"></span>
 </a>
-<a class="uk-icon-button uk-margin-right-small" href="https://www.amazon.com/s?k=ka+yee+lok&i=digital-text">
+<a class="uk-icon-button" href="https://www.amazon.com/s?k=ka+yee+lok&i=digital-text">
     <span uk-icon="bag" width="20" height="20"></span>
 </a>
-<a class="uk-icon-button" href="https://www.barnesandnoble.com/s/ka%20yee%20lok">
+<!-- <a class="uk-icon-button" href="https://www.barnesandnoble.com/s/ka%20yee%20lok">
     <span uk-icon="more" width="20" height="20"></span>
-</a>
+</a> -->
 
+            </div>
         </div>
     </div>
 </div>
