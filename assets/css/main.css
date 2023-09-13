@@ -1,6 +1,14 @@
 body {
 	background: #f1f1f1;
 }
+.navxs li>a {
+	display: block;
+	min-height: auto;
+  text-align: left;
+}
+.bcardinfo {
+	gap: 0;
+}
 .bcard {
 	width: 100%;
 	max-width: 300px;
@@ -21,6 +29,9 @@ body {
 }
 .bg-white {
 	background: #fff;
+}
+.yesteryear {
+	font-family: 'Yesteryear', cursive;
 }
 .courgette {
 	font-family: 'Courgette', cursive;	
